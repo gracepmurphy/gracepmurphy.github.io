@@ -1,5 +1,5 @@
 body {
-	background-color: #f1f1f9;
+	background-color: #ffe6ee;
 	margin: 0;
   	padding: 0;
 }
@@ -102,7 +102,7 @@ div.content {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #262536;
+  background-color: #be398d;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -134,19 +134,19 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4c4a6c;
-  color: #d3d3da;
+  background-color: #ebb8dd;
+  color: #be398d;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #393751;
-  color: #d3d3da;
+  background-color: #ebb8dd;
+  color: #be398d;
 }
 
 #colophon a:hover:not(.active) {
-  background-color: 262536;
-  color: #d3d3da;
+  background-color: #be398d;
+  color: #ebb8dd;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
